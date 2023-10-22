@@ -50,8 +50,8 @@ krog(r)
 hold on
 plot(kvadrat_x, kvadrat_y, 'k', 'LineWidth', 2);
 
-title('Prikaz random točk na območju kroga')
-legend('točke v krogu', 'točke izven kroga', 'krožnica')
+title('Graf naključno generiranih točk za izračun približka \pi')
+legend('točke v krogu', 'točke zunaj kroga', 'krožni lok')
 axis equal
 xlabel 'x'
 ylabel 'y'
